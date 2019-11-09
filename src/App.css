@@ -1,13 +1,13 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
+  display: flex;
+  justify-content: space-evenly;
+  color:white;
+  font-family: 'Bungee Inline', cursive;
+  font-size: 32px;
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -15,8 +15,32 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  
+}
+.App-headline{
+    position: absolute;
+    top:5%;
+    font-family: 'Bungee Inline', cursive;
+
 }
 
-.App-link {
-  color: #09d3ac;
+.App-Max-Text{
+  position: absolute;
+  font-size: calc(20px + 2vmin);
+  top:20%;
+}
+
+.App-input{
+  
+  font-size: 32px;
+}
+
+
+
+
+.App-background{
+
+  background:url('./img/weightliftguy.jpg')
+
+
 }
